@@ -3,32 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>모바일우선</title>
+  <title>피씨우선</title>
   <style>
      *{margin:0;border:none;padding:0;box-sizing:border-box;}
      
      
-     /* 모바일 스타일 */
+     /* 피시 스타일 */
       div{
-        width:100%;
+        width:62.5%;
         height:300px;
-        background:blue;
+        background:red;
       }
 
 
       /* 테블릿 스타일         */
-    @media (min-width:640px){
+    @media (max-width:959px){
       div{
         width:66.73618352450469%;        
         background:green;
       }
     }
 
-    /* 피씨 스타일 */
-    @media (min-width:960px){
+    /*  모바일 스타일 */
+    @media (max-width:693px){
       div{
-        width:62.5%;
-        background:red;
+        width:100%;
+        background:blue;
       }
     }
   </style>
