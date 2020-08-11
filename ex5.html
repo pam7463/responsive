@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>피씨우선</title>
+  <style>
+      *{margin:0;border:none;padding:0;box-sizing:border-box;}
+
+      .wrap{
+        width:50%;
+        /* 960px/1920px*100 */
+        height:300px;
+        margin:0 auto;
+        border:1px solid black;
+      }
+      .container{
+        width:93.75%;
+        /* 900px/960px*100 */
+        height:100%;
+        margin:inherit;
+      }
+      .red_box{
+        /* 300px/900px*100 */
+        width:33.33333333333333%;
+        height:100%;
+        background:red;
+        float:left;        
+      }
+      .blue_box{
+        width:66.666666666666667%;
+        /* 600px/900px*100 */
+        height:100%;
+        background:blue;
+        float:left;        
+      }
+
+     
+
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="container">
+      <div class="red_box"></div>
+      <div class="blue_box"></div>
+    </div>
+  </div>
+</body>
+</html>
